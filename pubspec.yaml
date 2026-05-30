@@ -1,0 +1,64 @@
+name: pinnday_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.7
+  google_fonts: ^8.0.2
+  iconsax: ^0.0.8
+  smooth_page_indicator: ^2.0.1
+  provider: ^6.1.5+1
+  intl: ^0.20.2
+ 
+  
+
+
+  flutter_localizations:
+    sdk: flutter
+  social_icons: ^0.0.1
+  flutter_svg: ^2.2.4
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  email_validator: ^3.0.0
+  google_sign_in: ^7.2.0
+  hugeicons: ^1.1.6
+  cloud_firestore: ^5.6.12
+  animated_toggle_switch: ^0.8.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  flutter_gen:
+  intl_utils:
+  flutter_launcher_icons: "^0.14.3"    
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/images/dark_mode/
+    - assets/images/light_mode/
+    - assets/images/events_images/
+    - assets/images/events_words/
+
+flutter_intl:
+  enabled: true
+  
+
+flutter_launcher_icons:
+  android: true  
+  ios: true
+  image_path: "assets/images/IconApp.png"       
+  adaptive_icon_foreground: "assets/images/IconApp.png"  
+  adaptive_icon_background: "#000F30"
+   

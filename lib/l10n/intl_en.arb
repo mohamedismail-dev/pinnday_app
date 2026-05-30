@@ -1,0 +1,98 @@
+{
+   
+"setup_page_title": "Personalize Your Experience",
+"setup_page_bodytext": "Choose your preferred theme and language to get started with a comfortable, tailored experience that suits your style.",
+"language_label": "Language",
+"english": "English",
+"arabic": "Arabic",
+"theme_label": "Theme",
+"setup_button": "Get Started",
+"skip_button":"Skip",
+
+"onboarding_title_1": "Find Events That Inspire You",
+"onboarding_title_2": "Effortless Event Planning",
+"onboarding_title_3": "Connect with Friends & Share Moments",
+"onboarding_bodytext_1": "Dive into a wo rld of events crafted to fit your unique interests. Whether you're into live music, art workshops, professional networking, or simply discovering new experiences, we have something for everyone. Our curated recommendations will help you explore, connect, and make the most of every opportunity around you.",
+"onboarding_bodytext_2": "Take the hassle out of organizing events with our all-in-one planning tools. From setting up invites and managing RSVPs to scheduling reminders and coordinating details, we’ve got you covered. Plan with ease and focus on what matters – creating an unforgettable experience for you and your guests.",
+"onboarding_bodytext_3": "Make every event memorable by sharing the experience with others. Our platform lets you invite friends, keep everyone in the loop, and celebrate moments together. Capture and share the excitement with your network, so you can relive the highlights and cherish the memories.",
+"onboarding_button1": "Next",
+"onboarding_button2": "Let's Get Started",
+
+"Login_to_your_account": "Login to your account",
+"Enter_your_email": "Enter your email",
+"Enter_your_password": "Enter your password",
+"Forgot_password": "Forgot password?",
+"Dont_have_an_account": "Don’t have an account ?",
+"Already_have_an_account": "Already have an account?",
+"Login": "Login",
+"Signup": "Sign up",
+"Or": "Or",
+"Login_with_Google": "Login with Google",
+
+"Create_your_account": "Create your account",
+"Enter_your_name": "Enter your name",
+"Confirm_your_password": "Confirm your password",
+"Sign_up_with_Google": "Sign up with Google",
+
+"Reset_password": "Reset password",
+"Forget_password2": "Forget password",
+
+"please_enter_your_email": "Please enter your email",
+"please_enter_your_password": "Please enter your password",
+"password_must_be_at_least_6_characters": "Password must be at least 6 characters",
+"enter_a_valid_email_address": "Enter a valid email address",
+
+"your_name_required": "Your Name Required",
+"email_is_required": "Email is required",
+"enter_valid_email": "Enter a valid email",
+"password_is_required": "Password is required",
+"password_complexity": "Password must be at least 8 characters, contain one uppercase letter and one number",
+"password_does_not_match": "The password does not match",
+"Welcome_Back": "Welcome Back ✨",
+"EN1": "EN",
+"AR1": "AR",
+"All": "All",
+"Sport": "Sport",
+"Birthday": "Birthday",
+"Book_Club": "Book Club",
+"Meeting": "Meeting",
+"Exhibition": "Exhibition",
+
+"Home": "Home",
+"Favorite": "Favorite",
+"Profile": "Profile",
+
+"Title": "Title",
+"Event_title": "Event Title",
+"Description": "Description",
+"Event_Description": "Event Description....",
+"Event_Date": "Event Date",
+"Event_Time": "Event Time",
+"Choose_Date":"Choose date",
+"Choose_Time":"Choose time",
+"Add_Event":"Add Event",
+"Search_for_event": "Search for event",
+"Dark_mode":"Dark mode",
+"Language":"Language",
+"Logout":"Logout",
+
+"Enter_title":"Enter title",
+"Enter_description":"Enter description",
+"Enter_date":"Enter date",
+"Enter_time":"Enter time",
+"Event_details":"Event details",
+"Update_event":"Update event",
+"No_favorites":"No favorites",
+"No_Events":"No Events!"
+
+
+
+
+
+
+
+
+
+
+
+}
