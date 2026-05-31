@@ -4,7 +4,7 @@
 
 # 📌 Pinnday
 
-**A smart event planner with Firebase sync, bilingual support & dark/light mode.**
+**A smart event planner — Firebase sync, bilingual & dark/light mode.**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
@@ -19,7 +19,7 @@
 ## 🎯 Hero
 
 <p align="center">
-  <img src="assets\images\screenshots\pinnday-hero.png" alt="Pinnday Hero" width="80%" />
+  <img src="assets/images\screenshots/pinnday-hero.png" alt="Pinnday Hero" width="80%" />
 </p>
 
 ---
@@ -31,17 +31,17 @@
 ### Onboarding
 | Light | Dark |
 |:-----:|:----:|
-| <img src="assets\images\screenshots\onBording-light.png" width="220"/> | <img src="assets\images\screenshots\onBording-dark.png" width="220"/> |
+| <img src="assets/images/screenshots/onBording-light.png" width="220"/> | <img src="assets/images/screenshots/onBording-dark.png" width="220"/> |
 
 ### Home
 | Light | Dark |
 |:-----:|:----:|
-| <img src="assets\images\screenshots\homescreen-light.png" width="220"/> | <img src="assets\images\screenshots\homescreen-dark.png" width="220"/> |
+| <img src="assets/images/screenshots/homescreen-light.png" width="220"/> | <img src="assets/images/screenshots/homescreen-dark.png" width="220"/> |
 
 ### Core Screens
 | Add Event | Favourites | Profile |
 |:---------:|:----------:|:-------:|
-| <img src="assets\images\screenshots\addevent.png" width="160"/> | <img src="assets\images\screenshots\favescreen.png" width="160"/> | <img src="assets\images\screenshots\profile.png" width="160"/> |
+| <img src="assets/images/screenshots/addevent.png" width="160"/> | <img src="assets/images/screenshots/favescreen.png" width="160"/> | <img src="assets/images/screenshots/profile.png" width="160"/> |
 
 </div>
 
