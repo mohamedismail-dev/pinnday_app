@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets\images\pinnday-header.png" alt="Pinnday Logo" width="400" height="120" />
+<img src="assets/images/pinnday-header.png" alt="Pinnday Logo" width="400" height="120" />
 
 # 📌 Pinnday
 
