@@ -19,7 +19,7 @@
 ## 🎯 Hero
 
 <p align="center">
-  <img src="assets/images\screenshots/pinnday-hero.png" alt="Pinnday Hero" width="80%" />
+  <img src="assets/images\screenshots/pinnday-hero.png" alt="Pinnday Hero" width="600" style="max-width: 25%;" />
 </p>
 
 ---
