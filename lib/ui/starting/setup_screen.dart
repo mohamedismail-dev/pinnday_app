@@ -9,93 +9,92 @@ class SetupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
+
     return Scaffold(
       body: SafeArea(
-        child: Expanded(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Column(
-              spacing: 26,
-              children: [
-                SizedBox(height: 8),
-                Row(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16),
+          child: Column(
+            spacing: 26,
+            children: [
+              SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: .center,
+                crossAxisAlignment: .center,
+                children: [
+                  Image.asset(
+                    "assets/images/pinnday-header.png",
+                    width: width * 0.4,
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+                ],
+              ),
+              Expanded(
+                child: Row(
                   mainAxisAlignment: .center,
-                  crossAxisAlignment: .center,
                   children: [
                     Image.asset(
-                      "assets/images/pinnday-header.png",
-                      width: width * 0.4,
-                      color: Theme.of(context).colorScheme.primary,
+                      "assets/images/being-creative.png",
+                      color: Theme.of(context).colorScheme.onSecondary,
+                      width: width * 0.9,
                     ),
                   ],
                 ),
-                Expanded(
-                  child: Row(
-                    mainAxisAlignment: .center,
+              ),
+              Column(
+                spacing: 8,
+                children: [
+                  Row(
                     children: [
-                      Image.asset(
-                        "assets/images/being-creative.png",
-                        color: Theme.of(context).colorScheme.onSecondary,
-                        width: width * 0.9,
+                      Expanded(
+                        child: Text(
+                          S.of(context).setup_page_title,
+                          style: Theme.of(context).textTheme.headlineLarge,
+                        ),
                       ),
                     ],
                   ),
-                ),
-                Column(
-                  spacing: 8,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            S.of(context).setup_page_title,
-                            style: Theme.of(context).textTheme.headlineLarge,
-                          ),
-                        ),
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            S.of(context).setup_page_bodytext,
-                            style: Theme.of(context).textTheme.bodyLarge,
-                          ),
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 8),
-                    LangAndThemeSelector(),
-                  ],
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 16),
-                  child: FilledButton(
-                    style: Theme.of(context).filledButtonTheme.style!.copyWith(
-                      minimumSize: WidgetStatePropertyAll(Size(width, 50)),
-                      shape: WidgetStatePropertyAll(
-                        RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(16),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          S.of(context).setup_page_bodytext,
+                          style: Theme.of(context).textTheme.bodyLarge,
                         ),
                       ),
-                    ),
-                    onPressed: () {
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(builder: (context) => Onbording()),
-                      );
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        S.of(context).setup_button,
-                        style: Theme.of(context).textTheme.labelLarge,
+                    ],
+                  ),
+                  SizedBox(height: 8),
+                  LangAndThemeSelector(),
+                ],
+              ),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: FilledButton(
+                  style: Theme.of(context).filledButtonTheme.style!.copyWith(
+                    minimumSize: WidgetStatePropertyAll(Size(width, 50)),
+                    shape: WidgetStatePropertyAll(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16),
                       ),
                     ),
                   ),
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => Onbording()),
+                    );
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      S.of(context).setup_button,
+                      style: Theme.of(context).textTheme.labelLarge,
+                    ),
+                  ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),

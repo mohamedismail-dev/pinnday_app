@@ -204,6 +204,8 @@ class _AddEventsScreenState extends State<AddEventsScreen> {
                         ],
                       ),
                       TextFormField(
+                        onTapOutside: (event) =>
+                            FocusManager.instance.primaryFocus?.unfocus(),
                         validator: (value) {
                           if (value!.trim().isEmpty) {
                             return S.of(context).Enter_title;
@@ -247,6 +249,8 @@ class _AddEventsScreenState extends State<AddEventsScreen> {
                         ],
                       ),
                       TextFormField(
+                        onTapOutside: (event) =>
+                            FocusManager.instance.primaryFocus?.unfocus(),
                         maxLines: 5,
                         validator: (value) {
                           if (value!.trim().isEmpty) {
